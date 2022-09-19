@@ -25,6 +25,7 @@ import time
 import aiohttp
 import asyncio
 import logging
+os.environ["PYTHONHTTPSVERIFY"] = "0"
 
 from datetime import datetime
 
