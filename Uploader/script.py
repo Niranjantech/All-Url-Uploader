@@ -28,7 +28,7 @@ class Translation(object):
     START_TEXT = """
 Hi {} 
 
-I am Powerful Url Uploader Bot v1
+I am Powerful Url Uploader Bot v3
  
 """
 
