@@ -42,7 +42,7 @@ def DownLoadFile(url, file_name, chunk_size, client, ud_type, message_id, chat_i
         os.remove(file_name)
     if not url:
         return file_name
-    r = requests.get(url, allow_redirects=True, stream=True)
+    r = requests.get(url, allow_redirects=True, stream=True, verify=false)
     # https://stackoverflow.com/a/47342052/4723940
     total_size = int(r.headers.get("content-length", 0))
     downloaded_size = 0
