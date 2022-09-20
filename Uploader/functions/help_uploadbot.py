@@ -33,7 +33,7 @@ logger = logging.getLogger(__name__)
 
 
 def DetectFileSize(url):
-    r = requests.get(url, allow_redirects=True, stream=True)
+    r = requests.get(url, allow_redirects=True, stream=True, verify=false)
     return int(r.headers.get("content-length", 0))
 
 
