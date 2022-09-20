@@ -49,7 +49,7 @@ I am Powerful Url Uploader Bot
 
 <b>🌀 Channel</b> : <a href="https://t.me/TMWAD">@TMWAD</a>
 
-<b>🌺 Heroku</b> : <a href="https://heroku.com/">Heroku</a>
+<b>🌺 Heroku app</b> : <a href="https://heroku.com/">Heroku</a>
 
 <b>📑 Language :</b> <a href="https://www.python.org/">Python 3.10.5</a>
 
